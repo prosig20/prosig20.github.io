@@ -1,0 +1,138 @@
+a {
+	text-decoration: none;
+  }
+	  .my-text
+	  {
+		  float: left;
+		  margin-left: 250px;
+	  }
+html body{
+margin:0;
+padding:0;
+}
+body{
+	font-family: 'Work Sans', sans-serif;
+
+}
+
+header{
+background-color:#fff;
+position:relative;
+font-family: 'Work Sans', sans-serif;
+width: 100%;
+
+}
+.wrapper{
+	margin-left: 7%;
+}
+
+header::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+nav{
+
+	float: left;
+}
+
+
+nav ul{
+	margin:40px;
+
+	padding: 0;
+	list-style: none;
+}
+nav li{
+	display: inline-block;
+	margin-left: 50px;
+	padding-top:22px;
+	position: relative;
+	text-decoration-style: none;
+}
+nav a{
+	color: green;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 100%;
+}
+nav a:hover{
+	color: #e5192c;
+}
+nav a::before{
+	content: '';
+	display: block;
+	height: 5px;
+	width: 100%;
+	background-color:#e5192c;
+
+	position:absolute;
+	top: 0;
+	width: 0%;
+
+	transition: all ease-in-out 500ms;
+}
+
+nav a:hover::before{
+	width: 100%;
+}
+.container{
+
+	width: 100%;
+
+
+
+}
+.logo1{
+	height: 50px;
+	float: left;
+	padding-top: 0px;
+	padding-bottom: 5px;
+	padding-left: 50px;
+}
+
+
+/* Pas Navigation Bar */
+
+body{
+	margin: 0;
+	padding: 0;
+	
+}
+
+.thing1{
+	height: 500px;
+	position: relative;
+	width: 100%;
+}
+
+.thing1 img{
+	width: 100%;
+	
+
+}
+.thing2{
+	
+	background:#510b3a;
+	height: 500px;
+	padding-top: 100px;
+	position: relative;
+	text-align: center;
+	width: 100%;
+}
+
+.thing2 h1{
+	font-size: 30px;
+	text-transform: uppercase;
+	padding-top: 0px;
+	margin-left: 0px;
+	color: #fff;
+
+}
+.thing2 p{
+	padding: 0px;
+}
+
+
+

@@ -1,0 +1,163 @@
+html body{
+  margin:0;
+  padding:0;
+}
+body{
+	  font-family: 'Work Sans', sans-serif;
+
+}
+
+header{
+  background-color:#fff;
+  width: 100%;
+
+}
+
+header::after{
+	content: '';
+	display: table;
+	clear: both;
+}
+
+nav{
+
+	float: right;
+}
+
+
+nav ul{
+	margin:40px;
+
+	padding: 0;
+	list-style: none;
+}
+nav li{
+	display: inline-block;
+	margin-left: 50px;
+	padding-top:22px;
+	position: relative;
+	text-decoration-style: none;
+}
+nav a{
+	color: green;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+nav a:hover{
+	color: #fcaa62;
+}
+nav a::before{
+	content: '';
+	display: block;
+	height: 5px;
+	width: 100%;
+	background-color:#fcaa62;
+
+	position:absolute;
+	top: 0;
+	width: 0%;
+
+	transition: all ease-in-out 500ms;
+}
+
+nav a:hover::before{
+	width: 100%;
+}
+
+.logo1{
+	height: 50px;
+	float: left;
+	padding-top: 0px;
+	padding-bottom: 5px;
+	padding-left: 50px;
+}
+.container
+{
+    max-height: 200px;
+    margin: auto;
+    background: #f2f2f2;
+}
+
+.banner
+{
+    background: url("../foto/contact.png") no-repeat center center;
+        
+}
+#wrap1
+{
+    background-image: url("../foto/b.jpg");
+    width: 100%;
+    height: 700px;
+    background-color: #ffffff; 
+    letter-spacing: 1px;
+}
+.left1
+{
+  
+    width: 26%;
+    height: 100%;
+    float: left;
+}
+.right1
+{
+  
+    width: 70%;
+    height: 100%;
+    float: right;
+}
+.divaudio
+{
+     width: 35%;
+    height: 100%;
+    float: left;
+}
+.rright1
+{
+   
+     width: 60%;
+    height: 100%;
+    float: right;
+}
+ #footert{
+   padding-right: 205px;
+}
+#footert tr td{
+    padding:5px;
+  
+}
+.fdiv
+            {
+		color: white;
+                background-image: url("../foto/bk.jpg");
+                background-attachment: fixed;
+                background-position: 45% 96%;
+                background-repeat: no-repeat;
+                background-size: 1700px 440px;
+                background-color: dimgrey;
+                width: 100%; height: 400px;
+            }
+           .fdiv1
+           {
+               float: left;
+               width: 25%; 
+               height: 400px;
+           }
+
+           #back-to-top {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+}
+
+footer
+{
+    padding: 10px;
+    font-size: 12px;
+    text-align: left;
+    background: #00002a;
+    color: white;
+    font-family: Arial;
+    letter-spacing: 1px;
+}

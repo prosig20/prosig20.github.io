@@ -1,0 +1,85 @@
+
+
+.section-header{
+	text-align: center;
+	margin-bottom: 30px;
+}
+.section-header h2{
+	text-transform: uppercase;
+	margin: 0;
+	color: #fff;
+	font-size: 45px;
+	letter-spacing: 5px;
+
+}
+
+.team-member{
+	width: 25%;
+	height: 250px;
+	float: left;
+	box-shadow: 5px 5px 15px #000;
+	position: relative;
+	display: block;
+	overflow: hidden;
+	padding: 15px;
+	text-align: center;
+	margin:15px;
+	background: #03204f;
+	border-radius: 5px;
+}
+.team-member img{
+	width: 100%
+	
+}
+.team-member h3{
+	margin-top: 5px;
+	text-transform: uppercase;
+	font-family: times new roman;
+	font-size: 20px;
+	color: #fff;
+
+}
+.team-member p{
+	color: #fff;
+}
+.team-member:before{
+	position: absolute;
+	content: '';
+	left: 0;
+	bottom: 0;
+	height: 4px;
+	width: 100%;
+	border-bottom: 4px solid transparent;
+	border-left: 4px solid transparent;
+	box-sizing:border-box;
+	transform: translate(100%);
+
+}
+
+.team-member:after{
+	position: absolute;
+	content: '';
+	left: 0;
+	top: 0;
+	height: 4px;
+	width: 100%;
+	border-top: 4px solid transparent;
+	border-right: 4px solid transparent;
+	box-sizing:border-box;
+	transform: translate(-100%);
+
+}
+
+
+.team-member:hover:before{
+	border-color: white;
+	height: 100%;
+	transform: translateX(0);
+	transition: .3s transform linear, .5s height linear .3s;
+}
+.team-member:hover:after{
+	border-color: white;
+	height: 100%;
+	transform: translateX(0);
+	transition: .3s transform linear, .5s height linear .5s;
+}
