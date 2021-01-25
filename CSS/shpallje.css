@@ -16,6 +16,11 @@ body{
 }
 
 
+body{
+	  font-family: 'Work Sans', sans-serif;
+
+}
+
 header{
   background-color:#ffffff;
   font-family: 'Work Sans', sans-serif;
@@ -249,5 +254,3 @@ footer{
 .footer-bottom{
 	border-top: 2px solid #ddd;
 }
-
-
